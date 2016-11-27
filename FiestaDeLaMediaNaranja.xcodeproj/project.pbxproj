@@ -12,6 +12,9 @@
 		66924A281DEB48FF00D66DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66924A261DEB48FF00D66DF4 /* Main.storyboard */; };
 		66924A2A1DEB48FF00D66DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66924A291DEB48FF00D66DF4 /* Assets.xcassets */; };
 		66924A2D1DEB48FF00D66DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66924A2B1DEB48FF00D66DF4 /* LaunchScreen.storyboard */; };
+		66924A391DEB622500D66DF4 /* AmorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66924A381DEB622500D66DF4 /* AmorViewController.swift */; };
+		66924A3B1DEB676100D66DF4 /* ResultadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66924A3A1DEB676100D66DF4 /* ResultadosViewController.swift */; };
+		66924A3D1DEB692C00D66DF4 /* NacimientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66924A3C1DEB692C00D66DF4 /* NacimientoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		66924A291DEB48FF00D66DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66924A2C1DEB48FF00D66DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66924A2E1DEB48FF00D66DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66924A381DEB622500D66DF4 /* AmorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmorViewController.swift; sourceTree = "<group>"; };
+		66924A3A1DEB676100D66DF4 /* ResultadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadosViewController.swift; sourceTree = "<group>"; };
+		66924A3C1DEB692C00D66DF4 /* NacimientoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NacimientoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		66924A211DEB48FF00D66DF4 /* FiestaDeLaMediaNaranja */ = {
 			isa = PBXGroup;
 			children = (
+				66924A3C1DEB692C00D66DF4 /* NacimientoViewController.swift */,
 				66924A221DEB48FF00D66DF4 /* AppDelegate.swift */,
 				66924A241DEB48FF00D66DF4 /* ViewController.swift */,
 				66924A261DEB48FF00D66DF4 /* Main.storyboard */,
+				66924A3A1DEB676100D66DF4 /* ResultadosViewController.swift */,
+				66924A381DEB622500D66DF4 /* AmorViewController.swift */,
 				66924A291DEB48FF00D66DF4 /* Assets.xcassets */,
 				66924A2B1DEB48FF00D66DF4 /* LaunchScreen.storyboard */,
 				66924A2E1DEB48FF00D66DF4 /* Info.plist */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66924A251DEB48FF00D66DF4 /* ViewController.swift in Sources */,
+				66924A3D1DEB692C00D66DF4 /* NacimientoViewController.swift in Sources */,
+				66924A391DEB622500D66DF4 /* AmorViewController.swift in Sources */,
 				66924A231DEB48FF00D66DF4 /* AppDelegate.swift in Sources */,
+				66924A3B1DEB676100D66DF4 /* ResultadosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				66924A331DEB48FF00D66DF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
