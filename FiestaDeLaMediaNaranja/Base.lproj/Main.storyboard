@@ -23,79 +23,79 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIESTA DE LA " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Fr-TV1">
                                 <rect key="frame" x="16" y="28" width="257" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="media-naranja" translatesAutoresizingMaskIntoConstraints="NO" id="FGJ-tn-4Sg">
                                 <rect key="frame" x="260" y="28" width="99" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MEDIA NARANJA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcw-9T-nAT">
                                 <rect key="frame" x="16" y="70" width="237" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="· INTRODUCIR FECHA EN LA QUE " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-7Q-dm4">
                                 <rect key="frame" x="41" y="283" width="273" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="· INTRODUCIR FECHA DE NACIMIENTO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe1-wn-N9D">
                                 <rect key="frame" x="41" y="169" width="302" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpU-hW-IqS">
                                 <rect key="frame" x="142" y="198" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="INTRODUCIR"/>
                                 <connections>
-                                    <segue destination="uiZ-Sd-mEs" kind="show" id="jSy-T6-nAp"/>
+                                    <segue destination="qh6-g4-fQA" kind="presentation" identifier="Nacimiento" id="zzc-GT-Q6d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6f-Ee-kO0">
                                 <rect key="frame" x="142" y="341" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <state key="normal" title="INTRODUCIR"/>
                                 <connections>
-                                    <segue destination="Fct-0e-iiC" kind="show" id="5YV-WQ-7lR"/>
+                                    <segue destination="Fct-0e-iiC" kind="presentation" identifier="Amor" id="NaV-PT-6yU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  CONOCISTE  A TU AMOR:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aed-qn-K0J">
                                 <rect key="frame" x="41" y="312" width="246" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSK-6a-mEo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSK-6a-mEo">
                                 <rect key="frame" x="104" y="236" width="167" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.64863048619999997" blue="0.2450594794" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LX-Xw-vv0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LX-Xw-vv0">
                                 <rect key="frame" x="104" y="379" width="166" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.64863048619999997" blue="0.2450594794" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ska-cz-J3j">
-                                <rect key="frame" x="140" y="574" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="140" y="461" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
                                 <state key="normal" title="RESULTADOS"/>
                                 <connections>
-                                    <segue destination="Xld-O2-Euo" kind="show" id="aej-c4-mYW"/>
+                                    <segue destination="Xld-O2-Euo" kind="presentation" id="aXO-SU-Yb1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,13 +103,62 @@
                     </view>
                     <connections>
                         <outlet property="amorDate" destination="2LX-Xw-vv0" id="oe3-Ai-gH2"/>
-                        <outlet property="fechaNacimiento" destination="RFK-g2-H0X" id="MXk-rl-FOm"/>
                         <outlet property="nacimientoDate" destination="JSK-6a-mEo" id="Mry-fA-43c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--Nacimiento View Controller-->
+        <scene sceneID="UbA-XW-LLd">
+            <objects>
+                <viewController id="qh6-g4-fQA" customClass="NacimientoViewController" customModule="FiestaDeLaMediaNaranja" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cse-NW-fIu"/>
+                        <viewControllerLayoutGuide type="bottom" id="HgR-oK-Hk4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KHh-vt-P4s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTRODUCE TU FECHA DE NACIMIENTO:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELd-5r-A5L">
+                                <rect key="frame" x="28" y="70" width="319" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qmh-pe-Uru">
+                                <rect key="frame" x="61" y="164" width="253" height="106"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="501959436.71140403">
+                                    <!--2016-11-27 17:10:36 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="changeBornDate:" destination="qh6-g4-fQA" eventType="valueChanged" id="yjT-TZ-a0V"/>
+                                </connections>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3g-yG-CBE">
+                                <rect key="frame" x="154" y="318" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ACEPTAR"/>
+                                <connections>
+                                    <segue destination="ETd-gD-7Mf" kind="unwind" unwindAction="changeBornWith_segue:" id="qyJ-ig-BTW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.8877662355" blue="0.63583236310000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="aceptar" destination="w3g-yG-CBE" id="A8n-XM-R7a"/>
+                        <outlet property="bornDate" destination="Qmh-pe-Uru" id="Tf0-L7-XjS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sc-hd-LfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ETd-gD-7Mf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="989" y="-540"/>
         </scene>
         <!--Amor View Controller-->
         <scene sceneID="PwM-1z-3bt">
@@ -143,67 +192,30 @@
                                 <date key="date" timeIntervalSinceReferenceDate="501959436.71140403">
                                     <!--2016-11-27 17:10:36 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="changeLoveDate:" destination="Fct-0e-iiC" eventType="valueChanged" id="MOY-wL-WfR"/>
+                                </connections>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYn-ef-TGy">
                                 <rect key="frame" x="164" y="318" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ACEPTAR"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="6h8-3w-GjB"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.8877662355" blue="0.63583236310000002" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8MV-eP-Lev" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1026" y="746"/>
-        </scene>
-        <!--Nacimiento View Controller-->
-        <scene sceneID="zAj-3O-AF6">
-            <objects>
-                <viewController id="uiZ-Sd-mEs" customClass="NacimientoViewController" customModule="FiestaDeLaMediaNaranja" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fVT-8x-VrN"/>
-                        <viewControllerLayoutGuide type="bottom" id="1sI-Jv-2B6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="tOV-gZ-Klq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTRODUCE TU FECHA DE NACIMIENTO:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKG-yx-Fa9">
-                                <rect key="frame" x="28" y="64" width="319" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="RFK-g2-H0X">
-                                <rect key="frame" x="61" y="141" width="253" height="106"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <date key="date" timeIntervalSinceReferenceDate="501959436.71140403">
-                                    <!--2016-11-27 17:10:36 +0000-->
-                                </date>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6v-qd-31f">
-                                <rect key="frame" x="154" y="292" width="66" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ACEPTAR"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="adb-aB-Cd4"/>
+                                    <segue destination="ywb-5k-nnz" kind="unwind" unwindAction="changeLoveWith_segue:" id="y0W-vi-yNb"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.8877662355" blue="0.63583236310000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="nacimientoDate" destination="RFK-g2-H0X" id="Ji4-rJ-lnu"/>
+                        <outlet property="aceptar" destination="zYn-ef-TGy" id="kaV-wJ-J0t"/>
+                        <outlet property="loveDate" destination="Dgv-w6-epH" id="E9e-11-Xpv"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JpL-VK-O4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8MV-eP-Lev" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ywb-5k-nnz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1077.5999999999999" y="-288.30584707646182"/>
+            <point key="canvasLocation" x="1026" y="746"/>
         </scene>
         <!--Resultados View Controller-->
         <scene sceneID="Mm6-h1-eQP">
@@ -229,12 +241,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="VOLVER AL MENU PRINCIPAL"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="vm1-pf-83F"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="VolverMenuPrincipal" id="axw-fG-urD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTE-xs-G3L">
+                                <rect key="frame" x="45" y="150" width="257" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.8877662355" blue="0.63583236310000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="resultadoLabel" destination="gTE-xs-G3L" id="3jt-9S-qkb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKZ-CU-CNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -244,7 +266,4 @@
     <resources>
         <image name="media-naranja" width="509" height="528"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="adb-aB-Cd4"/>
-    </inferredMetricsTieBreakers>
 </document>
