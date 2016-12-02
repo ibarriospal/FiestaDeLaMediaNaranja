@@ -9,14 +9,19 @@
 import UIKit
 
 class ResultadosViewController: UIViewController {
+    
     @IBOutlet weak var resultadoLabel: UILabel!
 
     var nac = NSDate()
     var amor = NSDate()
+    var formatter:DateFormatter = DateFormatter()
+    var separacion = Int()
+    var r = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        calcular()
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,14 +30,20 @@ class ResultadosViewController: UIViewController {
     }
     
     
-    //Obtenemos los datos de view controller
-    @IBAction func calculateResults(_segue: UIStoryboardSegue) {
-        if let vc = _segue.source as? ViewController {
-            nac = vc.nacimiento
-            amor = vc.amor
-        }
+    private func calcular(){
+        let calendar = Calendar.current
+        let componente = Calendar.Component.day
+        let flags = Set<Calendar.Component>([.day])
+        separacion = calendar.dateComponents(flags, from: nac as Date, to: amor as Date).day!
+        let resultado = calendar.date(byAdding: componente, value: separacion, to: amor as Date)
+        formatter.dateStyle = DateFormatter.Style.long
+        r = formatter.string(from: resultado! as Date)
+        resultadoLabel.text = r
     }
     
+    
+    
+   /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Resultados" {
             if let vc = segue.destination as? ViewController {
@@ -42,8 +53,28 @@ class ResultadosViewController: UIViewController {
         else{
             return
         }
+    }*/
+    
+   /* //Obtenemos los datos de NacimientoViewController
+    @IBAction func changeBorn(_segue: UIStoryboardSegue) {
+        if let vc = _segue.source as? NacimientoViewController {
+            nac = vc.fechaNacimiento
+            formatter.dateStyle = DateFormatter.Style.long
+            resultadoLabel.text = formatter.string(from: nac as Date)
+            
+        }
     }
     
+    //Obtenemos los datos de AmorViewController
+    @IBAction func changeLove(_segue: UIStoryboardSegue) {
+        if let vc = _segue.source as? AmorViewController {
+            amor = vc.fechaAmor
+            formatter.dateStyle = DateFormatter.Style.long
+           // amorDate.text = formatter.string(from: amor as Date)
+        }
+    }
+
+    */
     /*
      // MARK: - Navigation
      

@@ -45,6 +45,12 @@ class ViewController: UIViewController {
                     vc.fechaAmor = amor
             }
         }
+        else if (segue.identifier == "Resultado") {
+            if let vc = segue.destination as? ResultadosViewController{
+                vc.amor = amor
+                vc.nac = nacimiento
+            }
+        }
         else {
             return
         }
@@ -56,7 +62,6 @@ class ViewController: UIViewController {
             nacimiento = vc.fechaNacimiento
             formatter.dateStyle = DateFormatter.Style.long
             nacimientoDate.text = formatter.string(from: nacimiento as Date)
-            
         }
     }
     
