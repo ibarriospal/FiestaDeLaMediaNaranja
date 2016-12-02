@@ -17,7 +17,6 @@ class NacimientoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
         
         bornDate.setDate(fechaNacimiento as Date, animated: true)
@@ -28,6 +27,7 @@ class NacimientoViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     
     /*

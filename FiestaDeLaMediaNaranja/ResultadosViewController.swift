@@ -29,7 +29,6 @@ class ResultadosViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     private func calcular(){
         let calendar = Calendar.current
         let componente = Calendar.Component.day
@@ -39,42 +38,13 @@ class ResultadosViewController: UIViewController {
         formatter.dateStyle = DateFormatter.Style.long
         r = formatter.string(from: resultado! as Date)
         resultadoLabel.text = r
+        
+        let defaults = UserDefaults.standard
+        defaults.set(nac, forKey: "nacimiento")
+        defaults.set(amor, forKey: "amor")
+        defaults.synchronize()
     }
     
-    
-    
-   /*
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "Resultados" {
-            if let vc = segue.destination as? ViewController {
-                resultadoLabel.text = vc.amorDate.text
-            }
-        }
-        else{
-            return
-        }
-    }*/
-    
-   /* //Obtenemos los datos de NacimientoViewController
-    @IBAction func changeBorn(_segue: UIStoryboardSegue) {
-        if let vc = _segue.source as? NacimientoViewController {
-            nac = vc.fechaNacimiento
-            formatter.dateStyle = DateFormatter.Style.long
-            resultadoLabel.text = formatter.string(from: nac as Date)
-            
-        }
-    }
-    
-    //Obtenemos los datos de AmorViewController
-    @IBAction func changeLove(_segue: UIStoryboardSegue) {
-        if let vc = _segue.source as? AmorViewController {
-            amor = vc.fechaAmor
-            formatter.dateStyle = DateFormatter.Style.long
-           // amorDate.text = formatter.string(from: amor as Date)
-        }
-    }
-
-    */
     /*
      // MARK: - Navigation
      

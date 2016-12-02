@@ -18,6 +18,9 @@ class AmorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let defaults = UserDefaults.standard
+        defaults.set(loveDate.description, forKey: "amor")
+        
         // Do any additional setup after loading the view.
         loveDate.setDate(fechaAmor as Date, animated: true)
 
